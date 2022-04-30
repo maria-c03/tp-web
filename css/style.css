@@ -8,6 +8,7 @@ body {
 
 .logo {
     width: 20%;
+    margin-top: 15px;
     border-radius: 50px;
     border: 5px solid black;
 }
@@ -16,16 +17,19 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../images/galaxia.jpg);
+    background-size:100%;
 }
 
 .listaNav {
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex-direction: row;
     background-color: black;
     padding: 0px;
+    margin-bottom: 0px;
 }
 
 .listaNav li a {
@@ -39,14 +43,21 @@ header{
     background-color: blueviolet;
 }
 
+.listaPlataformas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .contenedor {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
-
-.imagenJuego {
-    width: 35%;
+.contenedorIz{
+    width: 45%;
+}
+.contenedorDer {
+    width: 45%;
+    margin-top: 20px;
     border-radius: 50px;
     border: 5px solid black;
 }
